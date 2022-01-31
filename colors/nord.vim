@@ -13,26 +13,48 @@ if version > 580
 endif
 
 let g:colors_name = "nord"
-let s:nord_vim_version="0.18.0"
-set background=dark
+let s:nord_vim_version="0.18.1"
 
-let s:nord0_gui = "#2E3440"
-let s:nord1_gui = "#3B4252"
-let s:nord2_gui = "#434C5E"
-let s:nord3_gui = "#4C566A"
-let s:nord3_gui_bright = "#616E88"
-let s:nord4_gui = "#D8DEE9"
-let s:nord5_gui = "#E5E9F0"
-let s:nord6_gui = "#ECEFF4"
-let s:nord7_gui = "#8FBCBB"
-let s:nord8_gui = "#88C0D0"
-let s:nord9_gui = "#81A1C1"
-let s:nord10_gui = "#5E81AC"
-let s:nord11_gui = "#BF616A"
-let s:nord12_gui = "#D08770"
-let s:nord13_gui = "#EBCB8B"
-let s:nord14_gui = "#A3BE8C"
-let s:nord15_gui = "#B48EAD"
+" make dynamic based on terminal settings
+set background=light
+
+" DARK MODE
+let s:nord0_gui = "#2E3440" " polar night darkest
+let s:nord1_gui = "#3B4252" " polar night second darkest
+let s:nord2_gui = "#434C5E" " polar night third darkest
+let s:nord3_gui = "#4C566A" "polar night fourth darkest
+let s:nord3_gui_bright = "#616E88" " medium blueish grey
+let s:nord4_gui = "#D8DEE9" " snow storm darkest
+let s:nord5_gui = "#E5E9F0" " snow storm medium
+let s:nord6_gui = "#ECEFF4" " snow storm light
+let s:nord7_gui = "#8FBCBB" " frost greenest
+let s:nord8_gui = "#88C0D0" " frost green blue
+let s:nord9_gui = "#81A1C1" " frost light blue
+let s:nord10_gui = "#5E81AC" " frost true blue
+let s:nord11_gui = "#BF616A" " aurora red
+let s:nord12_gui = "#D08770" " aurora orange
+let s:nord13_gui = "#EBCB8B" " aurora yellow
+let s:nord14_gui = "#A3BE8C" " aurora green
+let s:nord15_gui = "#B48EAD" " aurora pink
+
+" LIGHT MODE
+let s:nord0_gui = "#FFFFFF" " snow storm lightest seems muted, going straight white
+let s:nord1_gui = "#E5E9F0" " snow storm medium
+let s:nord2_gui = "#D8DEE9" " snow storm darkest
+let s:nord3_gui = "#D8DEE9" " snow storm darkest
+let s:nord3_gui_bright = "#616E88" " medium blueish grey
+let s:nord4_gui = "#434C5E" " polar night third darkest
+let s:nord5_gui = "#3B4252" " polar night second darkest
+let s:nord6_gui = "#2E3440" " polar night darkest
+let s:nord7_gui = "#8FBCBB" " frost greenest
+let s:nord8_gui = "#88C0D0" " frost green blue
+let s:nord9_gui = "#81A1C1" " frost light blue
+let s:nord10_gui = "#5E81AC" " frost true blue
+let s:nord11_gui = "#BF616A" " aurora red
+let s:nord12_gui = "#D08770" " aurora orange
+let s:nord13_gui = "#EBCB8B" " aurora yellow
+let s:nord14_gui = "#A3BE8C" " aurora green
+let s:nord15_gui = "#B48EAD" " aurora pink
 
 let s:nord1_term = "0"
 let s:nord3_term = "8"
